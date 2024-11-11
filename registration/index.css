@@ -10,10 +10,14 @@
 
     .img {
         width: 500px;
-        height: 100px;
+        height: 336px;
+    }
+    .dogs{
+        width: 500px;
+        height: 260px;
     }
 
-    img {
+    .logo {
         width: 500px;
         height: 100px;
     }
@@ -70,7 +74,7 @@ footer {
     background-color: #f6faf9;
     margin: 0 auto;
     position: relative;
-    top: 300px;
+    top: 120px;
 
     .fotter {
         position: relative;
