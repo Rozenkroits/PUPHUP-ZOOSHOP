@@ -6,6 +6,60 @@
 body {
     width: 1440px;
 }
+header {
+    width: 1440px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .link {
+        width: 550px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .buttons{
+        display: flex;
+    }
+    .log {
+        background-color: rgb(18, 76, 95);
+        border-radius: 5px;
+        border-radius: 5px;
+        width: 146px;
+        height: 49px;
+        cursor: pointer;
+        img{
+            margin-left: 50px;
+            margin-top: 17px;
+        }
+    }
+
+    .reg {
+        background-color: rgb(199, 231, 225);
+        margin-left: 10px;
+        border-radius: 5px;
+        width: 146px;
+        height: 49px;
+        cursor: pointer;
+        img{
+            margin-left: 40px;
+            margin-top: 17px;
+        }
+    }
+
+    .log:hover {
+        background-color: rgb(12, 48, 59);
+    }
+
+    .reg:hover {
+        background-color: rgb(170, 199, 194);
+    }
+}
+
+.dog{
+    width: 600px;
+}
 
 .map {
     width: 600px;
