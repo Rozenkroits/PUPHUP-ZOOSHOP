@@ -16,17 +16,23 @@
                 <img class="logo" src="./img/logo.svg" alt="logo">
             </a>
         </div>
+        
         <div class="email">
+            <form class="email" action="/search" method="POST">
             <p>LOGIN</p>
-            <input type="text" placeholder="Login">
+            <input class="input" type="text" placeholder="Login" required>
+            <p>E-MAIL</p>
+            <input class="input" type="email" placeholder="e-mail" required>
             <p>PASSWORD</p>
-            <input type="password" placeholder="Password">
-            <button class="submit" type="submit">SING IN</button>
-            <div class="links">
-                <a href="#">Recover password</a>
-                <a href="../Registration/index.html">Register</a>
-            </div>
+            <input class="input" type="password" placeholder="Password" required>
+            <p>REPEAT PASSWORD</p>
+            <input class="input" type="password" placeholder="Password" required>
+            <label>
+                <input type="checkbox" required name="agreements[]" value="all"> <span>I have read and accept <b>Privacy Policy</b></span></label>
+            <button class="submit" type="submit">REGISTRATION</button>
+            </form>
         </div>
+        
         <footer>
             <div class="fotter">
                 <div class="contacts">
