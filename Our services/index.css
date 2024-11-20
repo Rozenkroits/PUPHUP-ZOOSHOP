@@ -1,0 +1,502 @@
+* {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+header {
+    width: 1440px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .link {
+        width: 550px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .buttons{
+        display: flex;
+    }
+    .log {
+        background-color: rgb(18, 76, 95);
+        border-radius: 5px;
+        border-radius: 5px;
+        width: 146px;
+        height: 49px;
+        cursor: pointer;
+        img{
+            margin-left: 50px;
+            margin-top: 17px;
+        }
+    }
+
+    .reg {
+        background-color: rgb(199, 231, 225);
+        margin-left: 10px;
+        border-radius: 5px;
+        width: 146px;
+        height: 49px;
+        cursor: pointer;
+        img{
+            margin-left: 40px;
+            margin-top: 17px;
+        }
+    }
+
+    .log:hover {
+        background-color: rgb(12, 48, 59);
+    }
+
+    .reg:hover {
+        background-color: rgb(170, 199, 194);
+    }
+}
+
+main {
+    width: 1440px;
+
+    .block_1 {
+        width: 1440px;
+        height: 1140px;
+        position: relative;
+        background: url(./pictures/backgraund_dog.png) no-repeat 50% 50%;
+        margin-top: 20px;
+
+        .text {
+            width: 420px;
+            height: 350px;
+            position: absolute;
+            left: 140px;
+            top: 176px;
+
+            h1 {
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 19px;
+                margin-bottom: 30px;
+            }
+
+        }
+    }
+
+    .velvet {
+        width: 63px;
+        height: 60px;
+        position: absolute;
+        left: 875px;
+        top: 100px;
+    }
+
+    .orange {
+        width: 73px;
+        height: 81px;
+        position: absolute;
+        left: 712px;
+        top: 530px;
+    }
+
+    .pink {
+        width: 58px;
+        height: 62px;
+        position: absolute;
+        left: 1298px;
+        top: 388px;
+    }
+
+    button {
+        width: 146px;
+        height: 49px;
+        background-color: rgb(18, 76, 95);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgb(12, 48, 59);
+    }
+
+    .line {
+        width: 117px;
+        height: 2px;
+        background-color: rgb(18, 76, 95);
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .services {
+        width: 1124px;
+        height: 320px;
+        position: relative;
+        top: 730px;
+
+        p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .cards {
+            width: 1124px;
+            height: 225px;
+            margin-top: 45px;
+            display: flex;
+        }
+
+        a {
+            width: 200px;
+            height: 225px;
+            border-radius: 20px;
+            border: 2px solid rgb(18, 76, 95);
+            text-decoration: none;
+            color: rgb(18, 76, 95);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .grooming {
+        transition: 1s;
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+    .grooming:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+    .Healthcare {
+        transition: 1s;
+
+        P {
+            margin-top: 37px;
+        }
+    }
+
+    .Healthcare:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+    .Daycare {
+        transition: 1s;
+
+        P {
+            margin-top: 31px;
+        }
+    }
+
+    .Daycare:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+    .Training {
+        transition: 1s;
+
+        P {
+            margin-top: 31px;
+        }
+    }
+
+    .Training:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+    .Hyginic {
+        transition: 1s;
+
+        P {
+            margin-top: 31px;
+        }
+    }
+
+    .Hyginic:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+    .block_2 {
+        width: 1440px;
+        display: flex;
+
+        .fon {
+            img {
+                margin-left: 12px;
+                margin-bottom: 52px;
+            }
+        }
+
+        .text {
+            width: 420px;
+            height: 470px;
+            margin-right: 160px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 19px;
+            margin-bottom: 30px;
+        }
+
+        .video {
+            a {
+                width: 110px;
+                height: 105px;
+                background: url(./pictures/videowight.png) no-repeat 50% 50%;
+                display: block;
+                position: relative;
+                left: -256px;
+                top: 64px;
+            }
+
+            a:hover {
+                background: url(./pictures/videocolor.png) no-repeat 50% 50%;
+                width: 110px;
+                height: 105px;
+            }
+        }
+    }
+
+    .block_3 {
+        width: 1440px;
+        height: 745px;
+
+        .block_name {
+            width: 1124px;
+            height: 165px;
+
+            .sale {
+                margin-top: 30px;
+                display: flex;
+
+                button {
+                    margin-left: 573px;
+                }
+            }
+
+            p {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        .cards {
+            width: 1124px;
+            height: 225px;
+            display: flex;
+
+            .card {
+                width: 334px;
+                height: 540px;
+
+                .text {
+                    width: 230px;
+                    height: 110px;
+                }
+
+                h1 {
+                    font-size: 24px;
+                }
+
+                a {
+                    width: 121px;
+                    height: 45px;
+                    border-radius: 9px;
+                    border: 2px solid rgb(18, 76, 95);
+                    text-decoration: none;
+                    color: rgb(18, 76, 95);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+
+        }
+    }
+
+    .block_4 {
+        width: 1440px;
+        height: 681px;
+        position: relative;
+        background: url(./pictures/backgraund_man.png) no-repeat 50% 50%;
+
+        .text {
+            width: 420px;
+            height: 350px;
+            position: absolute;
+            left: 140px;
+            top: 75px;
+
+            h1 {
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 19px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}
+
+footer {
+    width: 1440px;
+    height: 605px;
+    background-color: #f6faf9;
+    margin: 0 auto;
+
+    h1 {
+        width: 600px;
+        height: 30px;
+        font-size: 34px;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .email {
+        width: 700px;
+        height: 58px;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0 0 15px rgb(221, 218, 218);
+        display: flex;
+        align-items: center;
+
+    }
+
+    input {
+        width: 460px;
+        height: 30px;
+        border: none;
+    }
+
+    button {
+        width: 146px;
+        height: 49px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(18, 76, 95);
+    }
+
+    .submit:hover {
+        background-color: rgb(12, 48, 59);
+    }
+
+    :focus {
+        outline: none;
+    }
+
+    .contacts {
+        width: 1097px;
+        height: 121px;
+        margin-top: 70px;
+        display: flex;
+
+        .follow {
+            width: 563px;
+            height: 121px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .fb {
+            a {
+                width: 60px;
+                height: 60px;
+                background: url(./pictures/fb_black.png) no-repeat 50% 50%;
+                display: block;
+                float: left;
+            }
+
+            a:hover {
+                background: url(./pictures/fb_color.png) no-repeat 50% 50%;
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        .inst {
+            a {
+                width: 60px;
+                height: 60px;
+                background: url(./pictures/inst_black.png) no-repeat 50% 50%;
+                display: block;
+                margin-left: 10px;
+                float: left;
+            }
+
+            a:hover {
+                background: url(./pictures/inst_color.png) no-repeat 50% 50%;
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        .boarding {
+            width: 267px;
+            height: 121px;
+        }
+
+        .tel {
+            color: rgb(18, 76, 95);
+            font-size: 22px;
+        }
+
+        .adress {
+            color: gray;
+            font-size: 18px;
+        }
+    }
+
+
+
+    hr {
+        margin-top: 50px;
+        height: 1px;
+        border: none;
+        background-color: #c7c7c7;
+    }
+
+    .foot {
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        p {
+            font-size: 16px;
+            float: left;
+        }
+
+        .link_foot {
+            width: 550px;
+            display: flex;
+        }
+
+        a {
+            font-size: 14px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
