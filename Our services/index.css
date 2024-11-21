@@ -16,9 +16,11 @@ header {
         display: flex;
         justify-content: space-evenly;
     }
-    .buttons{
+
+    .buttons {
         display: flex;
     }
+
     .log {
         background-color: rgb(18, 76, 95);
         border-radius: 5px;
@@ -26,7 +28,8 @@ header {
         width: 146px;
         height: 49px;
         cursor: pointer;
-        img{
+
+        img {
             margin-left: 50px;
             margin-top: 17px;
         }
@@ -39,7 +42,8 @@ header {
         width: 146px;
         height: 49px;
         cursor: pointer;
-        img{
+
+        img {
             margin-left: 40px;
             margin-top: 17px;
         }
@@ -59,17 +63,16 @@ main {
 
     .block_1 {
         width: 1440px;
-        height: 1140px;
+        height: 810px;
         position: relative;
-        background: url(./pictures/backgraund_dog.png) no-repeat 50% 50%;
-        margin-top: 20px;
+        background: url(./img/backgraund_dog.png) no-repeat 50% 50%;
 
         .text {
             width: 420px;
             height: 350px;
             position: absolute;
-            left: 140px;
-            top: 176px;
+            left: 880px;
+            top: 170px;
 
             h1 {
                 font-size: 50px;
@@ -80,149 +83,7 @@ main {
                 font-size: 19px;
                 margin-bottom: 30px;
             }
-
         }
-    }
-
-    .velvet {
-        width: 63px;
-        height: 60px;
-        position: absolute;
-        left: 875px;
-        top: 100px;
-    }
-
-    .orange {
-        width: 73px;
-        height: 81px;
-        position: absolute;
-        left: 712px;
-        top: 530px;
-    }
-
-    .pink {
-        width: 58px;
-        height: 62px;
-        position: absolute;
-        left: 1298px;
-        top: 388px;
-    }
-
-    button {
-        width: 146px;
-        height: 49px;
-        background-color: rgb(18, 76, 95);
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: rgb(12, 48, 59);
-    }
-
-    .line {
-        width: 117px;
-        height: 2px;
-        background-color: rgb(18, 76, 95);
-        margin: 0;
-        margin-top: 5px;
-    }
-
-    .services {
-        width: 1124px;
-        height: 320px;
-        position: relative;
-        top: 730px;
-
-        p {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .cards {
-            width: 1124px;
-            height: 225px;
-            margin-top: 45px;
-            display: flex;
-        }
-
-        a {
-            width: 200px;
-            height: 225px;
-            border-radius: 20px;
-            border: 2px solid rgb(18, 76, 95);
-            text-decoration: none;
-            color: rgb(18, 76, 95);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-    }
-
-    .grooming {
-        transition: 1s;
-
-        p {
-            margin-top: 10px;
-        }
-    }
-
-    .grooming:hover {
-        transition: 1s;
-        transform: scale(1.1);
-    }
-
-    .Healthcare {
-        transition: 1s;
-
-        P {
-            margin-top: 37px;
-        }
-    }
-
-    .Healthcare:hover {
-        transition: 1s;
-        transform: scale(1.1);
-    }
-
-    .Daycare {
-        transition: 1s;
-
-        P {
-            margin-top: 31px;
-        }
-    }
-
-    .Daycare:hover {
-        transition: 1s;
-        transform: scale(1.1);
-    }
-
-    .Training {
-        transition: 1s;
-
-        P {
-            margin-top: 31px;
-        }
-    }
-
-    .Training:hover {
-        transition: 1s;
-        transform: scale(1.1);
-    }
-
-    .Hyginic {
-        transition: 1s;
-
-        P {
-            margin-top: 31px;
-        }
-    }
-
-    .Hyginic:hover {
-        transition: 1s;
-        transform: scale(1.1);
     }
 
     .block_2 {
@@ -239,7 +100,7 @@ main {
         .text {
             width: 420px;
             height: 470px;
-            margin-right: 160px;
+            margin-top: 190px;
         }
 
         h1 {
@@ -252,104 +113,22 @@ main {
             margin-bottom: 30px;
         }
 
-        .video {
-            a {
-                width: 110px;
-                height: 105px;
-                background: url(./pictures/videowight.png) no-repeat 50% 50%;
-                display: block;
-                position: relative;
-                left: -256px;
-                top: 64px;
-            }
+        a {
+            width: 146px;
+            height: 49px;
+            background-color: rgb(18, 76, 95);
+            border-radius: 5px;
+            display: inline-table;
+            cursor: pointer;
 
-            a:hover {
-                background: url(./pictures/videocolor.png) no-repeat 50% 50%;
-                width: 110px;
-                height: 105px;
-            }
-        }
-    }
-
-    .block_3 {
-        width: 1440px;
-        height: 745px;
-
-        .block_name {
-            width: 1124px;
-            height: 165px;
-
-            .sale {
-                margin-top: 30px;
-                display: flex;
-
-                button {
-                    margin-left: 573px;
-                }
-            }
-
-            p {
-                font-size: 24px;
-                font-weight: bold;
+            img {
+                margin-top: 18px;
+                margin-left: 18px;
             }
         }
 
-        .cards {
-            width: 1124px;
-            height: 225px;
-            display: flex;
-
-            .card {
-                width: 334px;
-                height: 540px;
-
-                .text {
-                    width: 230px;
-                    height: 110px;
-                }
-
-                h1 {
-                    font-size: 24px;
-                }
-
-                a {
-                    width: 121px;
-                    height: 45px;
-                    border-radius: 9px;
-                    border: 2px solid rgb(18, 76, 95);
-                    text-decoration: none;
-                    color: rgb(18, 76, 95);
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-            }
-
-        }
-    }
-
-    .block_4 {
-        width: 1440px;
-        height: 681px;
-        position: relative;
-        background: url(./pictures/backgraund_man.png) no-repeat 50% 50%;
-
-        .text {
-            width: 420px;
-            height: 350px;
-            position: absolute;
-            left: 140px;
-            top: 75px;
-
-            h1 {
-                font-size: 50px;
-                margin-bottom: 30px;
-            }
-
-            p {
-                font-size: 19px;
-                margin-bottom: 30px;
-            }
+        a:hover {
+            background-color: rgb(12, 48, 59);
         }
     }
 
