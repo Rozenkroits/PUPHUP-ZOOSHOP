@@ -61,76 +61,58 @@ header {
 main {
     width: 1440px;
 
-    .block_1 {
-        width: 1440px;
-        height: 810px;
-        position: relative;
-        background: url(./img/backgraund_dog.png) no-repeat 50% 50%;
+    .dogs {
+        width: 1000px;
+
+        img {
+            width: 1000px;
+        }
+    }
+
+    .About_us {
+        width: 1000px;
+
+        p {
+            margin-top: 20px;
+        }
+    }
+
+    .work {
+        width: 1000px;
+        height: 390px;
+        border-radius: 20px;
+        box-shadow: 0 0 3px 3px rgb(207, 207, 207);
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
 
         .text {
-            width: 420px;
-            height: 350px;
-            position: absolute;
-            left: 880px;
-            top: 170px;
+            width: 900px;
+        }
 
-            h1 {
-                font-size: 50px;
-                margin-bottom: 30px;
+        .wrapper {
+            position: relative;
+            top: 30px;
+        }
+
+        .icons {
+            width: 900px;
+            margin-top: 40px;
+            display: flex;
+            column-gap: 20px;
+
+            img {
+                width: 100px;
+                margin-bottom: 10px;
             }
 
             p {
-                font-size: 19px;
-                margin-bottom: 30px;
+                color: rgb(18, 76, 95);
+                ;
             }
         }
     }
 
-    .block_2 {
-        width: 1440px;
-        display: flex;
-
-        .fon {
-            img {
-                margin-left: 12px;
-                margin-bottom: 52px;
-            }
-        }
-
-        .text {
-            width: 420px;
-            height: 470px;
-            margin-top: 190px;
-        }
-
-        h1 {
-            font-size: 50px;
-            margin-bottom: 30px;
-        }
-
-        p {
-            font-size: 19px;
-            margin-bottom: 30px;
-        }
-
-        a {
-            width: 146px;
-            height: 49px;
-            background-color: rgb(18, 76, 95);
-            border-radius: 5px;
-            display: inline-table;
-            cursor: pointer;
-
-            img {
-                margin-top: 18px;
-                margin-left: 18px;
-            }
-        }
-
-        a:hover {
-            background-color: rgb(12, 48, 59);
-        }
-    }
 }
 
 footer {
