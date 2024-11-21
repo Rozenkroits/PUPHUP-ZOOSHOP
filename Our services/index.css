@@ -203,13 +203,13 @@ footer {
             a {
                 width: 60px;
                 height: 60px;
-                background: url(./pictures/fb_black.png) no-repeat 50% 50%;
+                background: url(./img/fb_black.png) no-repeat 50% 50%;
                 display: block;
                 float: left;
             }
 
             a:hover {
-                background: url(./pictures/fb_color.png) no-repeat 50% 50%;
+                background: url(./img/fb_color.png) no-repeat 50% 50%;
                 width: 60px;
                 height: 60px;
             }
@@ -219,14 +219,14 @@ footer {
             a {
                 width: 60px;
                 height: 60px;
-                background: url(./pictures/inst_black.png) no-repeat 50% 50%;
+                background: url(./img/inst_black.png) no-repeat 50% 50%;
                 display: block;
                 margin-left: 10px;
                 float: left;
             }
 
             a:hover {
-                background: url(./pictures/inst_color.png) no-repeat 50% 50%;
+                background: url(./img/inst_color.png) no-repeat 50% 50%;
                 width: 60px;
                 height: 60px;
             }
