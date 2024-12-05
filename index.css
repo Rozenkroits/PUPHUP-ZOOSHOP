@@ -1,24 +1,38 @@
 * {
     margin: 0 auto;
-    font-family: Arial;
 }
 
 header {
     width: 1440px;
-    height: 50px;
+    height: 60px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     .link {
         width: 550px;
         display: flex;
         justify-content: space-evenly;
+
+        a {
+            transition: 1s;
+        }
+
+        a:hover {
+            transform: scale(1.3);
+            transition: 1s;
+        }
     }
-    .buttons{
+
+    .buttons {
         display: flex;
     }
+
     .log {
         background-color: rgb(18, 76, 95);
         border-radius: 5px;
@@ -26,7 +40,8 @@ header {
         width: 146px;
         height: 49px;
         cursor: pointer;
-        img{
+
+        img {
             margin-left: 50px;
             margin-top: 17px;
         }
@@ -39,7 +54,8 @@ header {
         width: 146px;
         height: 49px;
         cursor: pointer;
-        img{
+
+        img {
             margin-left: 40px;
             margin-top: 17px;
         }
@@ -47,11 +63,14 @@ header {
 
     .log:hover {
         background-color: rgb(12, 48, 59);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .reg:hover {
         background-color: rgb(170, 199, 194);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
+
 }
 
 main {
@@ -74,22 +93,30 @@ main {
             h1 {
                 font-size: 50px;
                 margin-bottom: 30px;
+                font-family: "Indie Flower", cursive;
+                font-weight: 400;
+                font-style: normal;
             }
 
             p {
                 font-size: 19px;
                 margin-bottom: 30px;
+                font-family: "Livvic", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
-
         }
     }
 
     .velvet {
         width: 63px;
         height: 60px;
-        position: absolute;
+        position: relative;
         left: 875px;
         top: 100px;
+        animation-duration: 5s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
     }
 
     .orange {
@@ -98,6 +125,9 @@ main {
         position: absolute;
         left: 712px;
         top: 530px;
+        animation-duration: 3s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
     }
 
     .pink {
@@ -106,6 +136,9 @@ main {
         position: absolute;
         left: 1298px;
         top: 388px;
+        animation-duration: 7s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
     }
 
     button {
@@ -133,11 +166,14 @@ main {
         width: 1124px;
         height: 320px;
         position: relative;
-        top: 730px;
+        top: 655px;
 
         p {
             font-size: 24px;
             font-weight: bold;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         .cards {
@@ -157,6 +193,9 @@ main {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 
@@ -165,12 +204,16 @@ main {
 
         p {
             margin-top: 10px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 
     .grooming:hover {
         transition: 1s;
         transform: scale(1.1);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .Healthcare {
@@ -178,12 +221,16 @@ main {
 
         P {
             margin-top: 37px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 
     .Healthcare:hover {
         transition: 1s;
         transform: scale(1.1);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .Daycare {
@@ -191,12 +238,16 @@ main {
 
         P {
             margin-top: 31px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 
     .Daycare:hover {
         transition: 1s;
         transform: scale(1.1);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .Training {
@@ -204,12 +255,16 @@ main {
 
         P {
             margin-top: 31px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 
     .Training:hover {
         transition: 1s;
         transform: scale(1.1);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .Hyginic {
@@ -217,12 +272,16 @@ main {
 
         P {
             margin-top: 31px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 
     .Hyginic:hover {
         transition: 1s;
         transform: scale(1.1);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .block_2 {
@@ -245,11 +304,17 @@ main {
         h1 {
             font-size: 50px;
             margin-bottom: 30px;
+            font-family: "Indie Flower", cursive;
+            font-weight: 400;
+            font-style: normal;
         }
 
         p {
             font-size: 19px;
             margin-bottom: 30px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         .video {
@@ -261,6 +326,7 @@ main {
                 position: relative;
                 left: -256px;
                 top: 64px;
+
             }
 
             a:hover {
@@ -291,6 +357,9 @@ main {
             p {
                 font-size: 24px;
                 font-weight: bold;
+                font-family: "Livvic", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
         }
 
@@ -298,10 +367,14 @@ main {
             width: 1124px;
             height: 225px;
             display: flex;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
 
             .card {
                 width: 334px;
                 height: 540px;
+                transition: 1s;
 
                 .text {
                     width: 230px;
@@ -310,6 +383,9 @@ main {
 
                 h1 {
                     font-size: 24px;
+                    font-family: "Indie Flower", cursive;
+                    font-weight: 400;
+                    font-style: normal;
                 }
 
                 a {
@@ -322,7 +398,19 @@ main {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
+                    font-family: "Livvic", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
                 }
+
+                a:hover {
+                    box-shadow: 2px 2px 5px rgb(95, 94, 94);
+                }
+            }
+
+            .card:hover {
+                transform: scale(1.1);
+                transition: 1s;
             }
 
         }
@@ -333,6 +421,7 @@ main {
         height: 681px;
         position: relative;
         background: url(./pictures/backgraund_man.png) no-repeat 50% 50%;
+        margin-top: 32px;
 
         .text {
             width: 420px;
@@ -344,15 +433,20 @@ main {
             h1 {
                 font-size: 50px;
                 margin-bottom: 30px;
+                font-family: "Indie Flower", cursive;
+                font-weight: 400;
+                font-style: normal;
             }
 
             p {
                 font-size: 19px;
                 margin-bottom: 30px;
+                font-family: "Livvic", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
         }
     }
-
 }
 
 footer {
@@ -360,6 +454,9 @@ footer {
     height: 605px;
     background-color: #f6faf9;
     margin: 0 auto;
+    font-family: "Livvic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
     h1 {
         width: 600px;
@@ -394,6 +491,9 @@ footer {
         cursor: pointer;
         color: white;
         background-color: rgb(18, 76, 95);
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .submit:hover {
@@ -418,6 +518,9 @@ footer {
         p {
             font-size: 14px;
             margin-bottom: 15px;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         .fb {
@@ -427,6 +530,9 @@ footer {
                 background: url(./pictures/fb_black.png) no-repeat 50% 50%;
                 display: block;
                 float: left;
+                font-family: "Livvic", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
 
             a:hover {
@@ -444,6 +550,9 @@ footer {
                 display: block;
                 margin-left: 10px;
                 float: left;
+                font-family: "Livvic", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
 
             a:hover {
@@ -466,10 +575,9 @@ footer {
         .adress {
             color: gray;
             font-size: 18px;
+
         }
     }
-
-
 
     hr {
         margin-top: 50px;
@@ -486,6 +594,9 @@ footer {
         p {
             font-size: 16px;
             float: left;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         .link_foot {
@@ -497,6 +608,9 @@ footer {
             font-size: 14px;
             text-decoration: none;
             color: black;
+            font-family: "Livvic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 }

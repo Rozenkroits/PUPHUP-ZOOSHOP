@@ -1,0 +1,45 @@
+.velvet {
+    width: 63px;
+    height: 60px;
+    position: relative;
+    left: 875px;
+    top: 100px;
+        animation-duration: 5s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    .orange {
+        width: 73px;
+        height: 81px;
+        position: absolute;
+        left: 712px;
+        top: 530px;
+        animation-duration: 3s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+
+    .pink {
+        width: 58px;
+        height: 62px;
+        position: absolute;
+        left: 1298px;
+        top: 388px;
+        animation-duration: 7s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slidein {
+        from {
+            transform: scale(1);
+            opacity: 0.5;
+        }
+        50% {
+            transform: scale(2);
+            opacity: 1;
+        }
+
+        to {
+            transform: scale(1);
+            opacity: 0.5;
+    }}

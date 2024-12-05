@@ -1,20 +1,32 @@
 * {
     margin: 0 auto;
-    font-family: Arial;
 }
 
 header {
     width: 1440px;
-    height: 50px;
+    height: 60px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     .link {
         width: 550px;
         display: flex;
         justify-content: space-evenly;
+
+        a {
+            transition: 1s;
+        }
+
+        a:hover {
+            transform: scale(1.3);
+            transition: 1s;
+        }
     }
 
     .buttons {
@@ -51,15 +63,26 @@ header {
 
     .log:hover {
         background-color: rgb(12, 48, 59);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
     .reg:hover {
         background-color: rgb(170, 199, 194);
+        box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
+
 }
 
 main {
     width: 1440px;
+
+    hr {
+        border: none;
+        color: rgb(199, 231, 225);
+        background-color: rgb(199, 231, 225);
+        height: 2px;
+        margin-bottom: 50px;
+    }
 
     .block_1 {
         width: 1440px;
@@ -73,10 +96,17 @@ main {
             position: absolute;
             left: 880px;
             top: 170px;
+            font-family: "Livvic", serif;
+            font-weight: 400;
+            font-style: normal;
+
 
             h1 {
                 font-size: 50px;
                 margin-bottom: 30px;
+                font-family: "Indie Flower", cursive;
+                font-weight: 400;
+                font-style: normal;
             }
 
             p {
@@ -94,23 +124,31 @@ main {
             img {
                 margin-left: 12px;
                 margin-bottom: 52px;
+                width: 490px;
             }
         }
 
         .text {
-            width: 420px;
-            height: 470px;
-            margin-top: 190px;
+            width: 780px;
+            height: 340px;
+            margin-top: 97px;
+
         }
 
         h1 {
             font-size: 50px;
             margin-bottom: 30px;
+            font-family: "Indie Flower", cursive;
+            font-weight: 400;
+            font-style: normal;
         }
 
         p {
             font-size: 19px;
             margin-bottom: 30px;
+            font-family: "Livvic", serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         a {
@@ -138,6 +176,9 @@ footer {
     height: 605px;
     background-color: #f6faf9;
     margin: 0 auto;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-style: normal;
 
     h1 {
         width: 600px;
@@ -145,6 +186,7 @@ footer {
         font-size: 34px;
         text-align: center;
         padding: 50px;
+
     }
 
     .email {

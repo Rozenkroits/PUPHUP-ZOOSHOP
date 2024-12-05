@@ -1,12 +1,14 @@
 * {
     margin: 0 auto;
-    font-family: Arial;
 }
 
 .wrapper {
     width: 1440px;
     margin: 0 auto;
     margin-top: 100px;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-style: normal;
 
     .img {
         width: 500px;
@@ -47,6 +49,7 @@
         cursor: pointer;
         color: white;
         background-color: rgb(18, 76, 95);
+        font-size: 18px;
     }
 
     .submit:hover {
