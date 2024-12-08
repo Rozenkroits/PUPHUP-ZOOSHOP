@@ -166,7 +166,6 @@ main {
 
 
 footer {
-    width: 1440px;
     height: 605px;
     background-color: #f6faf9;
     margin: 0 auto;
@@ -222,6 +221,7 @@ footer {
         width: 1097px;
         height: 121px;
         margin-top: 70px;
+        margin-bottom: 50px;
         display: flex;
 
         .follow {
@@ -286,7 +286,8 @@ footer {
 
 
     hr {
-        margin-top: 50px;
+        width: 1440px;
+        margin: 0 auto;
         height: 1px;
         border: none;
         background-color: #c7c7c7;

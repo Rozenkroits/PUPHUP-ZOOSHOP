@@ -172,7 +172,6 @@ main {
 }
 
 footer {
-    width: 1440px;
     height: 605px;
     background-color: #f6faf9;
     margin: 0 auto;
@@ -291,6 +290,7 @@ footer {
 
 
     hr {
+        width: 1440px;
         margin-top: 50px;
         height: 1px;
         border: none;

@@ -2,10 +2,6 @@
     margin: 0 auto;
 }
 
-body {
-    width: 1440px;
-}
-
 header {
     width: 1440px;
     height: 60px;
@@ -124,11 +120,10 @@ header {
 
 .dog {
     width: 600px;
-    margin-left: 340px;
+    margin-left: 893px;
 }
 
 footer {
-    width: 1440px;
     height: 146px;
     background-color: #f6faf9;
     margin: 0 auto;
@@ -139,6 +134,7 @@ footer {
     font-style: normal;
 
     hr {
+        width: 1440px;
         height: 1px;
         border: none;
         background-color: #c7c7c7;
