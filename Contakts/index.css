@@ -120,7 +120,7 @@ header {
 
 .dog {
     width: 600px;
-    margin-left: 404px;
+    margin: 0 auto;
 }
 
 footer {
