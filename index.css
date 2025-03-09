@@ -250,18 +250,18 @@ main {
         box-shadow: 2px 2px 5px rgb(95, 94, 94);
     }
 
-    .Training {
+    .news {
         transition: 1s;
 
         P {
-            margin-top: 31px;
+            margin-top: 14px;
             font-family: "Livvic", sans-serif;
             font-weight: 400;
             font-style: normal;
         }
     }
 
-    .Training:hover {
+    .news:hover {
         transition: 1s;
         transform: scale(1.1);
         box-shadow: 2px 2px 5px rgb(95, 94, 94);
